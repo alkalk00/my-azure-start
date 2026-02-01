@@ -6,7 +6,7 @@
 #
 # Requirements: gh (https://cli.github.com/), jq
 REPO="alkalk00/my-azure-start"
-TASKS_FILE="tasks.md"
+TASKS_FILE="task.md"
 
 if ! command -v gh >/dev/null 2>&1; then
   echo "gh CLI not found. Install it: https://cli.github.com/"
